@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    min-height: 220px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15rem auto;
+}
+
+.heading_div{
+    padding: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(15, 15, 182);
+    color: white;
+}
+form{
+    padding: 1rem;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 0.2rem;
+}
+input{
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+}
+button{
+    margin: 0.5rem 0rem;
+    padding: 0.3rem 0.5rem;
+    background-color:rgb(21, 21, 177);
+    cursor: pointer;
+    color: white;
+}
+#result{
+    text-align: center;
+   
+}
